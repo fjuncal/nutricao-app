@@ -56,7 +56,7 @@ export default function App() {
         setDetesteiContador(0);
         setSenha("");
       } else{
-        Alert.alert('Erro', 'Senha Incorreta!', [{style: 'cancel',},{text: 'OK'}]);
+        Alert.alert('Erro', 'Senha Incorreta!', [{text: 'OK'}]);
       }
    }
 
